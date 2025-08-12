@@ -1,0 +1,33 @@
+name: qlib-mcp
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - numpy>=1.24.0
+  - pandas>=0.24
+  - pyyaml
+  - filelock>=3.16.0
+  - redis
+  - dill
+  - fire
+  - ruamel.yaml>=0.17.38
+  - tqdm
+  - pymongo
+  - loguru
+  - lightgbm
+  - gym
+  - cvxpy
+  - joblib
+  - matplotlib
+  - jupyter
+  - nbconvert
+  - pyarrow
+  - pydantic-settings
+  - pip:
+    - mcp>=1.0.0
+    - asyncio-mqtt>=0.16.0
+    - redis-lock
+    - mlflow
+    - python-redis-lock 

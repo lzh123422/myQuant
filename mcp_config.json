@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "myquant": {
+      "command": "python",
+      "args": ["-m", "qlib.mcp.server"],
+      "env": {
+        "PYTHONPATH": "."
+      }
+    }
+  }
+} 

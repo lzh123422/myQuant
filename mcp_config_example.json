@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "qlib": {
+      "command": "python",
+      "args": ["start_mcp_server.py"],
+      "env": {
+        "PYTHONPATH": ".",
+        "QLIB_DATA_PATH": "~/.qlib/qlib_data"
+      }
+    }
+  }
+} 
